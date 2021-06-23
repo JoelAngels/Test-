@@ -7,7 +7,7 @@ function Search() {
   const handleChange = (e) => {
     setInput(e.target.value);
   };
-  return <input type="text" onChange={handleChange} title="shoot search" />;
+  return <input type="text" onChange={handleChange} title="shootSearch" />;
 }
 
 export default Search;
