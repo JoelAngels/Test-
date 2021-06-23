@@ -9,7 +9,7 @@ function Button() {
   };
 
   return (
-    <button onClick={shootFunction} title="shoot function">
+    <button onClick={shootFunction} title="shootFunction">
       {value}
     </button>
   );
